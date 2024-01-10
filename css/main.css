@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+}
+.mainheading {
+    color:rgb(46, 28, 20);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    list-style-position: inside;
+}
+.secondaryheading{
+    color: rgb(100, 30, 30);
+    font-family: sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+.bodytextstyle{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.circledimage{
+    border-radius: 100%;
+}
+.lightborder{
+    border: 20px solid cornsilk;
+}
+.tablestyle{    
+    font-family: sans-serif;
+    color: navy;
+    font-size: 40;
+    text-align:left;
+    vertical-align: top;
+}
+
+.tablelook{
+    
+    border-color:rgb(100, 30, 30);
+    border-radius: 50%;
+    column-width: auto;
+    border: 8px;
+    table-layout: fixed;
+    text-align:left;
+    vertical-align: top;
+    margin: 0px auto;
+}

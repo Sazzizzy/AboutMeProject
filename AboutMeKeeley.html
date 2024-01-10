@@ -16,83 +16,170 @@ Reflection:
 <html>
     <!--header and page title -->
 
+    <head>
+        <title>Sarah Keeley</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <style>
+        body {background-color:rgb(247, 171, 161); font-family: sans-serif;}
+        a {color:rgb(255, 255, 255); text-decoration:none;}        
 
-    <!--Requirements DELETE:
-    In the <head> element, set the title, which appears on the browser’s title bar. 
-    The title should read: About <your-name>
-    Put your name in a header, level 1.
-    Put a recognizable picture of you using an <img> tag.
-    Please use a paint program to resize and crop your image so that it is no larger than 500 by 500px (It does not have to be square).
-    If the image looks squashed or stretched I’m going to take off points.
-    The image should live in the same folder as your HTML page.-->
+    </style>
+    <h1 class="mainheading">Sarah Keeley</h1>
+    <img src="img/Selfie.jpg" alt="Selfie of Sarah Keeley" class="circledimage center lightborder"/>
 
 
     <!--Personal Info-->
 
-    <!--REQUIREMENTS: DELETE!:
-    Have a header (level 2) that says: “Personal Info:”
-    Next, use an unordered list (bullet points) and give me the following pieces of info:
-        Your major (spell it out. Don’t abbreviate).
-        Your high school, and the year you graduated.
-        What year are you in, currently, at UVU.
-        Your favorite flavor of ice cream (mmmm, ice cream).
-        Make use bold text for each label like in the example that I provided below.-->
-
+    <h2 class="center secondaryheading">Personal Info: </h2>
+    <ul class="bodytextstyle center">
+        <li><strong>Major:</strong> Computer Science</li>
+        <li><strong>School:</strong> Timpanogos High School, 2021</li>
+        <li><strong> College Year:</strong> Junior(I think?)</li>
+        <li><strong>Favorite Ice cream:</strong> Mint Chocolate Chip/Cookies and Cream</li>
+    </ul>
 
     <!--Five favorite books-->
 
-    <!--REQUIREMENTS DELETE: 
-    Have a level-2 header titled “My five favorite books”
-    Choose five books that you like the best, and list them in the order of your preference.
-        Each title should be italicized. 
-        Each author’s name should be in regular text.
-    Add hyperlinks. 
-        For each of the five books you listed, make the author’s name a hyperlink to the author’s website. 
-    -->
+    <h2 class="secondaryheading center">My five favorite books:</h2>
+    <ol class="bodytextstyle center" type="1">
+        <li><em>A long way gone</em>, <a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'" href="https://www.unicef.org/goodwill-ambassadors/ishmael-beah" target="_blank">Ishmael Beah</a></li>
+        <li><em>I'm glad my mom died</em>, <a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'"href="https://www.jennettemccurdy.com/" target="_blank">Jenette Mccurdy</a></li>
+        <li><em>Aslora</em> (the book I'm writing!), <a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'"href="AboutMeKeeley.html" target="_blank">Sarah Keeley</a> </li>
+        <li><em>CS 2550: Web Programming I</em>, <a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'" href="https://sites.harding.edu/fmccown/" target="_blank">Frank McCown et al</a></li>
+        <li><em>Girls' Last Tour</em> (hopefully manga count),<a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'" href="https://en.wikipedia.org/wiki/Tsukumizu" target="_blank">Tsukumizu</a> </li>
 
+    </ol>
 
     <!--Haiku-->
-    <!--Requirements DELETe:
-        Have a level-2 header with a title of your poem
-    Have a sentence or two explaining your inspiration for the poem.
-    Put your poem after the header.
-    Each line should use line-breaks, not paragraph breaks.-->
 
+
+    <h2 class="secondaryheading center">"Speedrunning CS2550," 2024</h2>
+    
+    <p class="center bodytextstyle">Inspired by the current time and ambitious endeavor of trying to finish this class quickly.<br><br>It is two a.m. <br> I am getting sleepy now. <br> But i shouldn't rest.</p>
     
     <!--Brief Essay-->
 
-    <!--REQUIREMENTS DELETE: 
-        Make a level-2 header titled something like: “My personal interests”
-    Give me three paragraphs, with three or more sentences each. 
-    In each paragraph talk about something you’re interested in.-->
-
+    <h2 class="secondaryheading center">What I'm Up To</h2>
+    <p class="bodytextstyle center">I'm a very artistically inclined person- I like to write stories, draw, paint, 3d model and print objects, and I'm currently working on developing a video game.
+        The game follows two girls who need to leave the desert they call home to find better thigns, 
+        but cannot without some form of airship to fly past the wall keeping them safe from monsters. 
+        You fight and befriend robots who populate the desert. It's what I've been spending a lot of my time on lately. 
+        <br> <br>I've also been working on a larger project that I also hope to turn into a video game after I get enough 
+        practice and get my name out there. I recently participated in 
+        <a onmouseover="style='text-decoration:underline;  color: rgb(190, 32, 32)'" onmouseout="style='text-decoration:none'" href="https://nanowrimo.org/" target="_blank">NaNoWriMo</a>, 
+        a challenge where you write 50,000 words in a month. I completed that challenge.</br><br>I'm majoring in Computer Science, 
+        but I find it hard to find the classes interesting when my heart is more art-aligned. Don't get me wrong, I love coding, 
+        but I love coding for things I'm passionate about. A cushy computer science job is my backup plan, but not the end goal. 
+        Rest assured, though- that doesn't mean I won't give this class my all! </p>
 
     <!--Class Schedule-->
-    <!--REQUIREMENTS DELETE: 
-    Make a level-2 header titled “class schedule”
-    Create a table with 6 columns.
-        Set the border size to 1, so I can see the borders for each cell. 
-        Set the cell spacing to 3, and set the cell padding to 3.
-    The header row should have a blank cell, followed by cells for Monday, Tuesday, Wednesday, Thursday, and Friday. 
-        If you have a Saturday class (you poor soul), you can add a sixth column (or not, I don’t care, really).
-    Going down the left side of the table, I want you to list out the hours of your week-day in 30-minute increments. You can start as early as you feel necessary.
-    List the classes you have as cells. 
-        Use the row-span element to block out as many 30-minute cells as you need for each item.  If you have stuff that starts at an odd time, then guess.  I won’t care, as long as it doesn’t look all wonky.
-    Fill up your schedule. 
-        Make stuff up if you have to.  
-        I want to see at least four classes that run M-W-F or Tu-Th or every weekday.  
-        In addition to classes, You can put your employment, your work-out time, your commute time, or anything else you like.
-    Use the rowspan attribute, so if you have an hour-long class, the cell should take up two rows, without a line between them. -->
 
-    <!--EXTRA STUFF, Don't necessarily put it here though. 5 are required
-        (2 points) Can you set a repeating background image? The text should still be readable.  Pick something that doesn’t make my eyes bleed, or I won’t give you credit.
-    (2 points) can you change the font used in the body of the document to something besides Times New Roman (or whatever your browser uses by default)?
-    (2 points) can you make your photo right-aligned on the page, and make the page’s text flow around it?
-    (2 points) on all hyperlinks, can you make it so that the underline only appears when you mouse-over the link?
-    (2 points) find a way to indent your poem, or center it on the page.
+    <h2 class="secondaryheading center">Class Schedule:</h2>
+    <table class="tablelook" border="1">
+        <tr class="tablestyle">
+            <td></td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+        </tr>
+        <tr class="tablestyle">
+            <td>3:00</td>
+            <td bgcolor="aquamarine" rowspan="3">Biology</td>
+            <td rowspan="1" bgcolor="salmon">Calculus</td>
+            <td bgcolor="aquamarine" rowspan="3">Biology</td>
+            <td rowspan="1" bgcolor="salmon">Calculus</td>
+            <td></td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>3:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="tablestyle">
+            <td>4:00</td>
+            <td bgcolor="white" rowspan="11">Work</td>
+            <td rowspan="4" bgcolor="lavender">Photography</td>
+            <td bgcolor="white" rowspan="11">Work</td>
+
+ 
+        </tr>
+        <tr class="tablestyle">
+            <td>4:30</td>
+            <td rowspan="6" bgcolor="skyblue">World History</td>
+            <td rowspan="6" bgcolor="skyblue">World History</td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>5:00</td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>5:30</td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>6:00</td>
+            <td></td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>6:30</td>
+            <td></td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>7:00</td>
+            <td rowspan="2" bgcolor="cornsilk">Homework</td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>7:30</td>
+            <td></td>
+
+            <td></td>
+
+        </tr>
+        <tr class="tablestyle">
+            <td>8:00</td>
+            <td></td>
+            <td rowspan="2" bgcolor="cornsilk">Homework</td>
+            <td></td>
+        </tr>
+        <tr class="tablestyle">
+            <td>8:30</td>
+            <td></td>
+
+            <td></td>
+        </tr>
+        <tr class="tablestyle">
+            <td>9:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="tablestyle">
+            <td>9:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+    
+    <!--EXTRA STUFF, 5 are required
+    X (2 points) can you change the font used in the body of the document to something besides Times New Roman (or whatever your browser uses by default)? DONE
+    X (2 points) on all hyperlinks, can you make it so that the underline only appears when you mouse-over the link? DONE
+    X it (2 points) find a way to indent your poem, or center it on the page. DONE
     
     Weekly Schedule
-        (2 points) text alignment. On your schedule, can you find a way to have all the text vertically aligned to the top and horizontally aligned to the left (including the headers).
-        (2 points) on your weekly schedule, can you fill in in each block so that each thing is color-coded in its own color (English is yellow, calculus is light red, work is light blue, etc)?
-        (2 points) equal column widths. On your schedule, can you find a way to have the column widths fixed so that they’re all the same size-->
+        X(2 points) text alignment. On your schedule, can you find a way to have all the text vertically aligned to the top and horizontally aligned to the left (including the headers).
+        X(2 points) on your weekly schedule, can you fill in in each block so that each thing is color-coded in its own color (English is yellow, calculus is light red, work is light blue, etc)?
+    -->
 </html> 
